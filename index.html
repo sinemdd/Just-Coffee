@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/3ad0e7407e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    
+
+</head>
+
+<body>
+    <!-- HEADER START -->
+    <header id="header">
+        <div class="header">
+            <div class="container">
+                <div class="header-navbar">
+                    <div class="header-logo">
+                        <h2>Coffee</h2>
+
+                    </div>
+                    <div class="header-menu">
+                        <ul id="menuItems">
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Services</a></li>
+                            <li><a href="#">Projects</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                        </ul>
+                        <i class="fas fa-align-justify" id="menu-icon"  onclick="menuToggle();"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HEADER FINISH -->
+    <!-- ABOUT START -->
+    <section id="about">
+        <div class="about-container">
+            <div class="row-1">
+                <div class="left-title">
+                    <h1> Transform your<br> brand</h1>
+                    <p>We are a full-service creative agency <br>specializing in helping brands grow fast.<br> Engage
+                        your clients through compelling <br>visuals that do most of the marketing for<br>you.</p>
+                    <a href="#">Learn More</a>
+
+                </div>
+                <div class="right-p">
+                    <img src="img/jarek-ceborski-IhqDpFz7I8Q-unsplash.jpg" alt="">
+
+                </div>
+
+            </div>
+
+            <div class="row-2">
+                <div class="left-p">
+
+                    <img src="img/marina-zaharkina-oWBTvKB8Ro8-unsplash.jpg" alt="">
+
+                </div>
+                <div class="right-title">
+                    <h1> Transform your<br> brand</h1>
+                    <p>We are a full-service creative agency specializing in helping<br> brands grow fast. Engage your
+                        clients through compelling<br> visuals that do most of the marketing for you.</p>
+                    <a href="#">Learn More</a>
+
+
+
+
+                </div>
+
+
+            </div>
+
+            <div class="row-3">
+                <div class="left-title1">
+                    <div class="title1">
+                        <h3>Graphic Design</h3>
+                        <p>Great design makes you memorable. We deliver artwork that <br>underscores your brand message
+                            and captures potential clients’<br> attention.</p>
+                    </div>
+                </div>
+
+                <div class="right-title1">
+                    <div class="title2">
+                        <h3>Graphic Design</h3>
+                        <p>Increase your credibility by getting the most stunning, high-quality<br> photos that improve
+                            your business image.</p>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+    <!-- ABOUT FINISH -->
+    <!-- FOOTER START -->
+    <section id="footer">
+        <div class="footer-inner">
+           <div class="text">
+               <h3>Just Coffee</h3>
+
+           </div>
+           <div class="menu">
+               <ul>
+                   <li><a href="">About</a></li>
+                   <li><a href="">Services</a></li>
+                   <li><a href="">Project</a></li>
+               </ul>
+           </div>
+           <div class="logo">
+               <img src="img/icon-facebook.svg">
+               <img src="img/icon-instagram.svg">
+               <img src="img/icon-twitter.svg">
+               <img src="img/icon-pinterest.svg">
+           </div>
+           
+            
+
+
+
+        </div>
+    </section>
+    <!-- FOOTER FINISH -->
+    <script>
+   var menuItems=document.getElementById('menuItems');
+   menuItems.style.maxHeight="0px";
+ function menuToggle(){
+     if(menuItems.style.maxHeight=="0px"){
+         menuItems.style.maxHeight="200px";
+     }
+     else{
+         menuItems.style.maxHeight="0px";
+     }
+ }
+    </script>
+
+</body>
+
+</html>
